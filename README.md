@@ -1,6 +1,6 @@
 # Learn Playwright Fundamentals 2X
 
-This project contains Playwright test automation examples and exercises.
+This project contains Playwright test automation examples and exercises covering Playwright fundamentals.
 
 ## Prerequisites
 
@@ -22,6 +22,30 @@ Run all tests:
 npx playwright test
 ```
 
+Run a specific test file:
+
+```bash
+npx playwright test tests/01_Basics/229_Basic_Test.spec.ts
+```
+
+Run tests with a specific browser:
+
+```bash
+npx playwright test --project=chromium
+```
+
+Run in headed mode:
+
+```bash
+npx playwright test --headed
+```
+
+Run in debug mode:
+
+```bash
+npx playwright test --debug
+```
+
 Run tests with UI mode:
 
 ```bash
@@ -37,8 +61,33 @@ npx playwright show-report
 ## Project Structure
 
 ```
-├── tests/              # Test files
-├── playwright.config.ts # Playwright configuration
-├── package.json        # Project dependencies
-└── .gitignore          # Git ignore rules
+├── tests/
+│   ├── 01_Basics/              # Basic Playwright test examples
+│   │   ├── 229_Basic_Test.spec.ts
+│   │   └── 230_Test_Annotation.spec.ts
+│   ├── 02_First_tests/         # First Playwright test patterns
+│   │   ├── 231_First_Running.spec.ts
+│   │   ├── 232_BCP.spec.ts
+│   │   ├── 233_BCP_MultipleContext.spec.ts
+│   │   ├── 234_BCP_Multiple_Pages.spec.ts
+│   │   ├── 235_Test_Interface_PW.spec.ts
+│   │   ├── 236_BCP_TEST_PW.spec.ts
+│   │   └── 237_BCP_Test_Options.spec.ts
+│   └── RunningTestCommand      # Quick reference for test commands
+├── playwright.config.ts        # Playwright configuration
+├── package.json                # Project dependencies
+└── .gitignore                  # Git ignore rules
 ```
+
+## Topics Covered
+
+### 01 - Basics
+- Writing your first Playwright test
+- Test annotations and configuration
+
+### 02 - First Tests
+- Running and verifying tests
+- Browser Context and Page (BCP) concepts
+- Multiple contexts and pages
+- Playwright test interface
+- Test options and configuration

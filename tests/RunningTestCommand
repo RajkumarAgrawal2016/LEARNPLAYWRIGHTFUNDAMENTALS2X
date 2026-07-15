@@ -1,0 +1,22 @@
+#Run the tests
+
+npx playwright test
+
+#Run specific file
+npx playwright test tests/login.spec.ts
+
+#Run test with specific browser
+npx playwright test --project=chromium
+
+#Run in headed mode 
+npx playwright test --headed
+
+#Run in debug mode
+npz playwright test --debug
+
+#Run with UI mode
+npx playwright test --UI
+
+#Show Report
+
+npx playwright show-report
