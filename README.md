@@ -75,7 +75,9 @@ npx playwright show-report
 │   │   ├── 236_BCP_TEST_PW.spec.ts
 │   │   └── 237_BCP_Test_Options.spec.ts
 │   ├── 03_Locators_Commands/  # Locators and navigation commands
-│   │   └── 238_LS.spec.ts
+│   │   ├── 10_July_Task.spec.ts
+│   │   ├── 238_LS.spec.ts
+│   │   └── 239_Project_VWO_Login.spec.ts
 │   └── RunningTestCommand      # Quick reference for test commands
 ├── playwright.config.ts        # Playwright configuration
 ├── package.json                # Project dependencies
@@ -97,4 +99,7 @@ npx playwright show-report
 
 ### 03 - Locators & Commands
 - Navigation commands (goBack, goForward)
-- Locator strategies
+- Locator strategies (ID, CSS, XPath)
+- Lazy evaluation and auto-wait concepts
+- VWO login test with error validation
+- Katalon CURA Healthcare demo task
