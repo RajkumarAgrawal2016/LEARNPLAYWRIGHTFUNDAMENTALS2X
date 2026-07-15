@@ -66,6 +66,7 @@ npx playwright show-report
 │   │   ├── 229_Basic_Test.spec.ts
 │   │   └── 230_Test_Annotation.spec.ts
 │   ├── 02_First_tests/         # First Playwright test patterns
+│   │   ├── 06_July_Task.spec.ts
 │   │   ├── 231_First_Running.spec.ts
 │   │   ├── 232_BCP.spec.ts
 │   │   ├── 233_BCP_MultipleContext.spec.ts
