@@ -77,7 +77,15 @@ npx playwright show-report
 │   ├── 03_Locators_Commands/  # Locators and navigation commands
 │   │   ├── 10_July_Task.spec.ts
 │   │   ├── 238_LS.spec.ts
-│   │   └── 239_Project_VWO_Login.spec.ts
+│   │   ├── 239_Project_VWO_Login.spec.ts
+│   │   ├── 240_Xpath.spec.ts
+│   │   ├── 241_Project03_Signup_VWO.spec.ts
+│   │   ├── 242_Project3_Signup_VWO.spec.ts
+│   │   ├── 243_PW_Command.spec.ts
+│   │   ├── 244_Referer_PW.spec.ts
+│   │   ├── 245_GetByRole_PW.spec.ts
+│   │   ├── 246_Press_Seq_PW.spec.ts
+│   │   └── Xpath_TTA.pdf
 │   └── RunningTestCommand      # Quick reference for test commands
 ├── playwright.config.ts        # Playwright configuration
 ├── package.json                # Project dependencies
@@ -98,8 +106,11 @@ npx playwright show-report
 - Test options and configuration
 
 ### 03 - Locators & Commands
-- Navigation commands (goBack, goForward)
-- Locator strategies (ID, CSS, XPath)
+- Navigation commands (goBack, goForward, referer)
+- Locator strategies (ID, CSS, XPath, getByRole)
 - Lazy evaluation and auto-wait concepts
+- waitUntil options (commit, domcontentloaded, load, networkidle)
+- pressSequentially for typing simulation
 - VWO login test with error validation
+- VWO signup validation with XPath and getByRole
 - Katalon CURA Healthcare demo task
