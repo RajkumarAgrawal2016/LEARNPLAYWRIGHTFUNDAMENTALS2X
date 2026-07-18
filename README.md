@@ -74,7 +74,7 @@ npx playwright show-report
 │   │   ├── 235_Test_Interface_PW.spec.ts
 │   │   ├── 236_BCP_TEST_PW.spec.ts
 │   │   └── 237_BCP_Test_Options.spec.ts
-│   ├── 03_Locators_Commands/  # Locators and navigation commands
+│   ├── 03_Locators_Commands/   # Locators and navigation commands
 │   │   ├── 10_July_Task.spec.ts
 │   │   ├── 238_LS.spec.ts
 │   │   ├── 239_Project_VWO_Login.spec.ts
@@ -86,7 +86,16 @@ npx playwright show-report
 │   │   ├── 245_GetByRole_PW.spec.ts
 │   │   ├── 246_Press_Seq_PW.spec.ts
 │   │   └── Xpath_TTA.pdf
-│   └── RunningTestCommand      # Quick reference for test commands
+│   ├── 04_Session_Storage/     # Session storage and authentication
+│   │   ├── 247_SessionStorage.spec.ts
+│   │   └── 248_TestVWODashboard.spec.ts
+│   ├── 05_Allure_Reporting/    # Allure reporting examples
+│   │   └── 248_TestVWODashboard.spec.ts
+│   ├── example.spec.ts
+│   ├── Template.spec.ts
+│   └── RunningTestCommand
+├── utils/
+│   └── CustomReporter.ts       # Custom TTA HTML reporter
 ├── playwright.config.ts        # Playwright configuration
 ├── package.json                # Project dependencies
 └── .gitignore                  # Git ignore rules
@@ -114,3 +123,21 @@ npx playwright show-report
 - VWO login test with error validation
 - VWO signup validation with XPath and getByRole
 - Katalon CURA Healthcare demo task
+
+### 04 - Session Storage
+- Saving and reusing browser session storage
+- Authentication state persistence with storageState
+- VWO dashboard and settings tests with saved sessions
+
+### 05 - Allure Reporting
+- Allure report integration with Playwright
+- Generating and viewing Allure reports
+- Custom TTA HTML reporter for enhanced test reporting
+
+## Reporters
+
+This project uses multiple reporters configured in `playwright.config.ts`:
+
+- **Line reporter** - Real-time console output during test execution
+- **Allure reporter** - Generates Allure HTML reports for detailed test analysis
+- **Custom TTA Reporter** - Custom HTML report with steps, screenshots, videos, and trace support (generates reports in `tta-report/` directory)
