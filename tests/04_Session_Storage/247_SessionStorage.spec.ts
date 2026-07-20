@@ -1,4 +1,4 @@
-import { chromium } from "@playwright/test";
+import { chromium } from "playwright";
 async function saveSession() {
     let browser = await chromium.launch({ headless: false });
     let context = await browser.newContext();

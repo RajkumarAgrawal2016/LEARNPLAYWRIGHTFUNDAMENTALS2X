@@ -88,9 +88,16 @@ npx playwright show-report
 │   │   └── Xpath_TTA.pdf
 │   ├── 04_Session_Storage/     # Session storage and authentication
 │   │   ├── 247_SessionStorage.spec.ts
-│   │   └── 248_TestVWODashboard.spec.ts
+│   │   ├── 248_TestVWODashboard.spec.ts
+│   │   └── 248_TestVWODashboard_NoCustomReport.spec.ts
 │   ├── 05_Allure_Reporting/    # Allure reporting examples
 │   │   └── 248_TestVWODashboard.spec.ts
+│   ├── 06_Multiple_Element/    # Handling multiple elements
+│   │   ├── 250_Multi_Element.spec.ts
+│   │   └── 251_Multi_Element_Direct.spec.ts
+│   ├── 07_WebTables/           # Web table handling
+│   │   ├── 252_Webtable_Dynamic.spec.ts
+│   │   └── 252_Webtables_Dynamic_XPath.spec.ts
 │   ├── example.spec.ts
 │   ├── Template.spec.ts
 │   └── RunningTestCommand
@@ -128,11 +135,24 @@ npx playwright show-report
 - Saving and reusing browser session storage
 - Authentication state persistence with storageState
 - VWO dashboard and settings tests with saved sessions
+- VWO dashboard test without custom reporter
 
 ### 05 - Allure Reporting
 - Allure report integration with Playwright
 - Generating and viewing Allure reports
 - Custom TTA HTML reporter for enhanced test reporting
+
+### 06 - Multiple Elements
+- Handling multiple elements with `all()` and `allInnerTexts()`
+- Looping through elements and filtering by text
+- Getting attributes from multiple elements
+- Using `getByTestId` for direct element selection
+
+### 07 - Web Tables
+- Dynamic web table data extraction with row/column iteration
+- XPath-based dynamic locator construction for tables
+- Finding specific cell values in web tables
+- Using `following-sibling` XPath for related data lookup
 
 ## Reporters
 
