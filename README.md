@@ -104,7 +104,11 @@ npx playwright show-report
 │   │   ├── 255_WebTable_Xpath.spec.ts
 │   │   ├── 256_WebTable_Xpath_Pagination.spec.ts
 │   │   ├── 257_WebTable_Xpath._Pagination.spec.ts
-│   │   └── 258_WebTable_Xpath_Pagination_Fn.spec copy.ts
+│   │   └── 258_WebTable_Xpath_Pagination_Fn.spec.ts
+│   ├── 08_Web_Select_Frames_Iframe/  # Web select, frames, and iframe handling
+│   │   ├── 259_Select.spec.ts
+│   │   ├── 260_Custom_DD_Select.spec.ts
+│   │   └── 261_Advanced_Select_pro.spec.ts
 │   ├── example.spec.ts
 │   ├── Template.spec.ts
 │   └── RunningTestCommand
@@ -164,6 +168,12 @@ npx playwright show-report
 - Filtering web table data by page locator
 - OrangeHRM web table project task
 - XPath-based pagination functions for large datasets
+
+### 08 - Web Select, Frames & Iframe
+- HTML `<select>` element handling with Playwright
+- Custom dropdown select implementations
+- Advanced select interaction patterns
+- Frame and iframe navigation and element interaction
 
 ## Reporters
 
