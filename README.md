@@ -96,8 +96,15 @@ npx playwright show-report
 │   │   ├── 250_Multi_Element.spec.ts
 │   │   └── 251_Multi_Element_Direct.spec.ts
 │   ├── 07_WebTables/           # Web table handling
-│   │   ├── 252_Webtable_Dynamic.spec.ts
-│   │   └── 252_Webtables_Dynamic_XPath.spec.ts
+│   │   ├── 17_JulyProject_task1.spec.ts
+│   │   ├── 17_July_ProjectTask_OrangeHRM_Webtable.spec.ts
+│   │   ├── 252_Webtables_Dynamic_XPath.spec.ts
+│   │   ├── 253_Webtable_Dynamic.spec.ts
+│   │   ├── 254_Filter_PageLoc.spec.ts
+│   │   ├── 255_WebTable_Xpath.spec.ts
+│   │   ├── 256_WebTable_Xpath_Pagination.spec.ts
+│   │   ├── 257_WebTable_Xpath._Pagination.spec.ts
+│   │   └── 258_WebTable_Xpath_Pagination_Fn.spec copy.ts
 │   ├── example.spec.ts
 │   ├── Template.spec.ts
 │   └── RunningTestCommand
@@ -153,6 +160,10 @@ npx playwright show-report
 - XPath-based dynamic locator construction for tables
 - Finding specific cell values in web tables
 - Using `following-sibling` XPath for related data lookup
+- Web table pagination with page navigation controls
+- Filtering web table data by page locator
+- OrangeHRM web table project task
+- XPath-based pagination functions for large datasets
 
 ## Reporters
 
