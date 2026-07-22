@@ -109,6 +109,18 @@ npx playwright show-report
 │   │   ├── 259_Select.spec.ts
 │   │   ├── 260_Custom_DD_Select.spec.ts
 │   │   └── 261_Advanced_Select_pro.spec.ts
+│   ├── 09_Frame_Iframe/             # Frame and iframe handling
+│   │   ├── 262_Iframe.spec.ts
+│   │   ├── 263_IframeSet.spec.ts
+│   │   └── 264_Iframe_part2.spec.ts
+│   ├── 10__Keyboard_Hover_Drag_Drop/ # Keyboard, hover, and drag drop actions
+│   │   ├── 22_July_Task.spec.ts
+│   │   ├── 265_Keyboard.spec.ts
+│   │   ├── 266_SpiceJet_Hover.spec.ts
+│   │   ├── 267_Drag_Drop.spec.ts
+│   │   ├── 268_Advance_Drag_Drop.spec.ts
+│   │   ├── 269_Context_Munu.spec.ts
+│   │   └── learning.md
 │   ├── example.spec.ts
 │   ├── Template.spec.ts
 │   └── RunningTestCommand
@@ -174,6 +186,22 @@ npx playwright show-report
 - Custom dropdown select implementations
 - Advanced select interaction patterns
 - Frame and iframe navigation and element interaction
+
+### 09 - Frames & Iframe
+- Working with iframe elements
+- Nested iframe handling
+- Frame set navigation
+- Accessing elements inside iframes
+
+### 10 - Keyboard, Hover & Drag Drop
+- Keyboard actions (press, type, key down/up)
+- Modifier keys (Ctrl, Shift, Alt combinations)
+- Mouse actions (click, dblclick, right-click, mouse down/up)
+- Mouse move and scroll operations
+- Drag and drop with dragTo and manual mouse events
+- Hover actions for dropdown menus
+- Context menu interactions
+- Learning guide with examples and quick reference
 
 ## Reporters
 
