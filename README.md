@@ -121,6 +121,8 @@ npx playwright show-report
 │   │   ├── 268_Advance_Drag_Drop.spec.ts
 │   │   ├── 269_Context_Munu.spec.ts
 │   │   └── learning.md
+│   ├── 11_JS_Alerts/                 # JavaScript alert handling
+│   │   └── 270_JS_Alert.spec.ts
 │   ├── example.spec.ts
 │   ├── Template.spec.ts
 │   └── RunningTestCommand
@@ -202,6 +204,13 @@ npx playwright show-report
 - Hover actions for dropdown menus
 - Context menu interactions
 - Learning guide with examples and quick reference
+
+### 11 - JS Alerts
+- Handling JavaScript alert, confirm, and prompt dialogs
+- Using `page.once('dialog', ...)` to intercept dialogs
+- Accepting and dismissing dialogs
+- Reading dialog type and message
+- Sending input text to JS prompts
 
 ## Reporters
 
